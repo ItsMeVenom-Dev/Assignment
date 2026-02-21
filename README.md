@@ -1,5 +1,7 @@
 # Guided Component Architect - MyAssignment
 
+Live Demo  https://assignment-bciyxmyfpn6nrzagsesjxm.streamlit.app/
+
 An AI-powered system that generates Angular/HTML components
 
 Built using:
