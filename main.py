@@ -137,6 +137,10 @@ if st.button("Generate"):
     st.code(final_code, language="html")
 
 if st.button("Save Input"):
-    with open("code.tsx", "a", encoding="utf-8") as f:
-        f.write(user_input + "\n\n")
-    st.success("Saved Successfully")
+    if user_input.strip():
+        st.download_button(
+            label="Download TSX File",
+            data=user_input,
+            file_name="code.tsx",
+            mime="text/plain"
+        )
