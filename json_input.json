@@ -1,0 +1,36 @@
+{
+    "colors": {
+        "primary": "bg-primary",
+        "primary-hover": "hover:bg-primary-dark",
+        "surface": "bg-surface",
+        "background": "bg-background",
+        "text-primary": "text-textPrimary",
+        "text-secondary": "text-textSecondary",
+        "border": "border-borderColor"
+    },
+    "spacing": {
+        "sm": "p-2",
+        "md": "p-4",
+        "lg": "p-6"
+    },
+    "margin": {
+        "sm": "m-2",
+        "md": "m-4",
+        "lg": "m-6"
+    },
+    "radius": {
+        "sm": "rounded-sm",
+        "md": "rounded-md",
+        "lg": "rounded-lg"
+    },
+    "shadow": {
+        "sm": "shadow-sm",
+        "md": "shadow-md",
+        "lg": "shadow-lg",
+        "glass": "backdrop-blur-md bg-white/20 border border-white/30"
+    },
+    "layout": {
+        "container": "max-w-md mx-auto",
+        "flex-center": "flex items-center justify-center"
+    }
+}
