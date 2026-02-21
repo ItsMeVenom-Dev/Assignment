@@ -79,7 +79,7 @@ Only validate.
 validator_chain = validator_prompt | llm | output
 
 
-# 🔥 Extract only content inside ``` ```
+
 def extract_html(text):
     start = text.find("```")
     if start == -1:
@@ -144,3 +144,4 @@ if st.button("Save Input"):
             file_name="code.tsx",
             mime="text/plain"
         )
+
